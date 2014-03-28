@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:#f5f6f8;
+    font-family: georgia, serif;
+}
+
+.container {
+    max-width: 900px;
+    width:92%;
+}
+
+.header-space {
+    margin-top: 80px;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.row {
+    clear: both;
+}
+
+.col-half {
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 122px;
+}
+
+h1.logo {
+    font-family: 'Lato', sans-serif;
+    color: #424552;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.slogan {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: .9em;
+    color: #92a8b8;
+}
+
+a img.badge {
+    margin-top: 45px;
+}
+
+
+
