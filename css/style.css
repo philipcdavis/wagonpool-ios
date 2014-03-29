@@ -12,6 +12,10 @@ body {
     width:92%;
 }
 
+.clear-fix {
+    clear: both;
+}
+
 .header-space {
     margin-top: 80px;
 }
@@ -21,19 +25,25 @@ body {
     display: block;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .row {
     clear: both;
 }
 
 .col-half {
-    width: 50%;
+    width:96.969696969697%;
+    margin:0 1.515151515152% 1em;
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .icon {
     width: 122px;
+    margin-top: 0px;
 }
 
 h1.logo {
@@ -42,20 +52,44 @@ h1.logo {
     text-transform: uppercase;
     font-size: 1.6em;
     letter-spacing: 3px;
-    text-align: center;
 }
 
 .slogan {
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 2px;
     font-size: .9em;
     color: #92a8b8;
 }
 
-a img.badge {
-    margin-top: 45px;
+footer {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid red;
 }
 
+footer p {
+    width: 90%;
+}
+
+a img.badge {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+@media screen and (min-width: 640px) {
+    
+    footer p {
+        width: 70%;
+    }
+    
+    .col-half {
+        width: 46.969696969697%;
+        margin: 0 1.515151515152% 1em;
+    }
+    .icon {
+        margin-top: 150px;
+    }
+    
+}
 
 
